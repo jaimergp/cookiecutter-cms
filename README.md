@@ -250,7 +250,6 @@ test your program's ability to be packaged through `conda-build`.
 If you choose either Conda dependency option, additional 
 tests will be added to Travis and/or AppVeyor which *only* package through `conda-build`.
 
-This method relies on the conda `meta.yaml` file.
 
 ### Deployment Method 2: Conda through someone else's manager
 
@@ -259,7 +258,6 @@ such as [Bioconda](https://bioconda.github.io/) or [Omnia](http://www.omnia.md/)
 own rules, which may include packaging your program yourself and uploading. Check each platform's 
 instructions and who else deploys to them before choosing this option to ensure its right for you.
 
-This method relies on the conda `meta.yaml` file.
 
 ## Deployment Method 3: Upload package to PyPi
 
